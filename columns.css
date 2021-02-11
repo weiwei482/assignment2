@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  
+}
+.columnsub1 {
+  width: 3%;
+  height:auto;
+  float:left;
+  padding:5px;
+}
+.fixedcolumn0 {
+  width: 5%;
+  height:100px;
+  float:left;
+  padding:5px;
+  
+}
+.column0 {
+  width: 5%;
+  height:auto;
+  float:left;
+  padding:5px;
+  
+}
+.column1 {
+  width: 10%;
+  height:auto;
+  float:left;
+  padding:5px;
+  
+}
+.minifixedcolumn1 {
+  width: 10%;
+  height:150px;
+  float:left;
+  padding:5px;
+  
+}
+.fixedcolumn1 {
+  width: 10%;
+  height:430px;
+  float:left;
+  padding:5px;
+  
+}
+
+.column2 {
+  width: 14.8%;
+  height:430px;
+  float:left;
+  
+}
+.column25 {
+  width: 15%;
+  height:auto;
+  float:left;
+  
+}
+.minifixedcolumn25 {
+  width: 15%;
+  height:150px;
+  float:left;
+  
+}
+.column3 {
+  width: 12.5%;
+  height:545px;
+  float:left;
+  
+}
+.column4 {
+  width: 25%;
+  height:auto;
+  float:left;
+  
+  
+  
+}
+.fixedcolumn4 {
+  width: 25%;
+  height:545px;
+  float:left;
+  
+  
+  
+}
+.minifixedcolumn4 {
+  width: 25%;
+  height:250px;
+  float:left;
+  
+  
+  
+}
+.column5 {
+  width: 30%;
+  height:auto;
+  float:left;
+  
+  
+}
+.column16 {
+  width: 16%;
+  height:auto;
+  float:left;
+  
+  
+}
+.fixedcolumn16 {
+  width: 16%;
+  height:150px;
+  float:left;
+  
+  
+}
+.column35 {
+  width: 35%;
+  height:auto;
+  float:left;
+  
+  
+}
+.fixedcolumn35 {
+  width: 35%;
+  height:100px;
+  float:left;
+  
+  
+}
+.column52 {
+  width: 37.5%;
+  height:auto;
+  float:left;
+  
+  
+}
+.minifixedcolumn52 {
+  width: 37.5%;
+  height:150px;
+  float:left;
+  
+  
+}
+.column40 {
+  width: 40%;
+  height:auto;
+  float:left;
+  
+  
+}
+.column6 {
+  width: 48.5%;
+  height:auto;
+  float:left;
+  
+  
+}
+.column62 {
+  width: 50%;
+  height:auto;
+  float:left;
+  
+  
+  
+}
+.column60 {
+  width: 60%;
+  height:auto;
+  float:left;
+  
+  
+}
+.column75 {
+  width: 75%;
+  height:auto;
+  float:left;
+  
+  
+}
+.column7 {
+  width: 80%;
+  height:auto;
+  float:left;
+  
+  
+}
+.column8 {
+  width: 85.2%;
+  height:auto;
+  float:left;
+  
+  
+}
+.column9 {
+  width: 100%;
+  height:auto;
+  float:left;
+  
+  
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,180 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  padding-left:30px;
+  padding-right:30px;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 30px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #111;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+.middled {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.responsive{
+  width:100%;
+  max-width:1480px;
+  height:auto;
+}
+/* For putting text inside an images */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.blackbg {
+  background-color:black;
+  padding:10px;
+  width:1449.5px;
+}
+.responsiveblackbg{
+  background-color:black;
+  padding:30px;
+  max-width:1470px;
+  width:auto;
+}
+.responsivegreybg{
+  background-color:#F2F2F2;
+  padding:30px;
+  width:100%;
+  width:auto;
+}
+.smallresponsivegreybg{
+  background-color:#F2F2F2;
+  padding:30px;
+  width:49.25%;
+  
+  float:left;
+}
+.bigblackbox{
+  float:left;
+  background-color:black;
+  border:solid 1px black;
+  width:100%;
+  padding:20px;
+}
+.greybg{
+  background-color:#F5F5F7;
+  max-width:1449.5px;
+  width:100%;
+  padding:10px;
+  
+}
+.smallwhitebox {
+  float:left;
+  background-color:white;
+  border:solid 1px red;
+  width:49.7%;
+  
+}
+.fixedwhitebox{
+  padding:100px;
+  color:white;
+}
+.fixedblackbox{
+  padding:100px;
+  color:black;
+}
+.smallblackbox {
+  float:left;
+  background-color:black;
+  border:solid 1px red;
+  width:49.7%;
+  
+}
+.fixedgreybg{
+  background-color:#F5F5F7;
+  max-width:1449.5px;
+  width:100%;
+  padding:10px;
+  height:800px;
+  border:solid 1px red;
+}
+.smallwhitebox2 {
+  float:left;
+  background-color:white;
+  border:solid 1px red;
+  width:45.7%;
+  
+}
+.middledtext {
+  text-align:center;
+  
+}
+.quarteredtext {
+  margin-left:20%;
+  
+}
+.whitetext{
+  color:white;
+}
